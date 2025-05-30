@@ -1,37 +1,41 @@
-# WEB DEEP SCANNER V3.0 - **THE DARK EDITION**
+# 🚀 DEEP SCANNER V3.0 - **THE DARK EDITION**
 
-> **WARNING:**  
-> This tool is for **EDUCATIONAL PURPOSES ONLY**
+> **⚠️ WARNING:**  
+> This tool is for **EDUCATIONAL PURPOSES ONLY**  
 > **ILLEGAL USE IS STRICTLY PROHIBITED!**
 
-![Banner]([https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXRvb2xqMmI5bGUxdmxmazVkd2VzMTg0Y3Y4NGM4MG51d3U4MnI0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1gLZ32bMP5pY52PBsm/giphy.gif])
+![Banner](https://media.giphy.com/media/1gLZ32bMP5pY52PBsm/giphy.gif)
 
 ---
 
-## Features
+## 🌟 Features
 
--  **Subdomain Bruteforcing** (100k+ wordlist)
--  **Cloud Leak Detection** (AWS/GCP/Azure)
--  **Exploit Simulation** (SQLi/XSS/RCE)
--  **Malware Detection** (YARA rules)
--  **Offline CVE Database** (2020-2025)
+- 🔍 **Subdomain Bruteforcing** (100k+ wordlist)
+- ☁️ **Cloud Leak Detection** (AWS/GCP/Azure)
+- 💣 **Exploit Simulation** (SQLi/XSS/RCE)
+- 🦠 **Malware Detection** (YARA rules)
+- 📚 **Offline CVE Database** (2020-2025)
+- 🛡️ **AI Fuzzing Engine** for advanced payloads
 
 ---
 
-🛡️ Disclaimer
-This tool is for legal penetration testing only.
-The developer is not responsible for any misuse.
+## 💡 Disclaimer
 
-Stay safe, stay ethical. Happy hacking!
+This tool is intended **ONLY for authorized penetration testing and educational purposes**.  
+**The developer is NOT responsible for any misuse or damage caused by improper use.**  
 
-## Usage
+Stay ethical, stay safe. Happy hacking! 💻
+
+---
+
+## 🚀 Usage
 
 ```bash
-# Scan target domain
+# 🔍 Scan target domain
 python main.py scan example.com
 
-# Show exploit simulation
+# 💣 Simulate exploits
 python main.py exploit example.com
 
-# Malware check
+# 🦠 Malware check
 python main.py hunt suspicious.php
