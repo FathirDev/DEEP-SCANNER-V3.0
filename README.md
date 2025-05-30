@@ -1,45 +1,45 @@
 
-# 🚀 DEEP SCANNER V3.0 - **THE DARK EDITION**
+# 🚀 DEEP SCANNER V3.0 - **EDISI DARK**
 
-> **⚠️ WARNING:**  
-> This tool is for **EDUCATIONAL PURPOSES ONLY**  
-> **ILLEGAL USE IS STRICTLY PROHIBITED!**
+> **⚠️ PERINGATAN:**  
+> Alat ini hanya untuk **KEPERLUAN EDUKASI**  
+> **PENGGUNAAN ILEGAL SANGAT DILARANG!**
 
 ![Banner](https://i.giphy.com/1gLZ32bMP5pY52PBsm.webp)
 
 ---
 
-## 🌟 Features
-- 🔍 **Subdomain Bruteforcing** (100k+ wordlist)  
-- ☁️ **Cloud Leak Detection** (AWS/GCP/Azure)  
-- 💣 **Exploit Simulation** (SQLi/XSS/RCE)  
-- 🦠 **Malware Detection** (YARA rules)  
-- 📚 **Offline CVE Database** (2020-2025)  
-- 🛡️ **AI Fuzzing Engine** for advanced payloads  
+## 🌟 Fitur
+- 🔍 **Bruteforce Subdomain** (100k+ wordlist)  
+- ☁️ **Deteksi Kebocoran Cloud** (AWS/GCP/Azure)  
+- 💣 **Simulasi Eksploitasi** (SQLi/XSS/RCE)  
+- 🦠 **Deteksi Malware** (menggunakan aturan YARA)  
+- 📚 **Database CVE Offline** (2020-2025)  
+- 🛡️ **Mesin Fuzzing AI** untuk payload tingkat lanjut  
 
 ---
 
 ## 💡 Disclaimer
-This tool is intended **ONLY for authorized penetration testing and educational purposes**.  
-**The developer is NOT responsible for any misuse or damage caused by improper use.**  
+Alat ini hanya untuk **pengujian keamanan resmi dan keperluan edukasi**.  
+**Pengembang tidak bertanggung jawab atas penyalahgunaan atau kerusakan yang disebabkan oleh penggunaan yang tidak tepat.**  
 
-Stay ethical, stay safe. Happy hacking! 💻
+Tetap etis, tetap aman. Selamat mencoba! 💻
 
 ---
 
-# 🔧 Setup Instructions
+# 🔧 Panduan Setup
 
-### 💻 Windows Setup
+### 💻 Setup Windows
 ```bash
 python -m ensurepip --upgrade
 pip install -r requirements.txt
 
-# Install yara-python (manual or AppVeyor)
+# Instal yara-python (manual atau AppVeyor)
 pip install yara_python-[versi].whl
-# Or use AppVeyor build
+# Atau gunakan build dari AppVeyor
 ```
 
-### 🐧 Linux Setup
+### 🐧 Setup Linux
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip libyara-dev
@@ -49,26 +49,26 @@ pip3 install yara-python
 
 ---
 
-# 🚀 Usage Instructions
+# 🚀 Panduan Penggunaan
 
-### 🔍 Scan Target Domain
+### 🔍 Pindai Target Domain
 ```bash
 python main.py scan example.com
 ```
 
-### 💣 Simulate Exploits
+### 💣 Simulasi Eksploitasi
 ```bash
 python main.py exploit example.com
 ```
 
-### 🦠 Malware Check
+### 🦠 Pemeriksaan Malware
 ```bash
 python main.py hunt suspicious.php
 ```
 
 ---
 
-## 👤 Author & Contact
+## 👤 Penulis & Kontak
 - **ZexoGiza**  
 - 📧 [contact@tirzznesia.me](mailto:contact@tirzznesia.me)  
 - 🌐 https://tirzznesia.me
