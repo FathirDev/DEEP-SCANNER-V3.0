@@ -28,6 +28,26 @@ Stay ethical, stay safe. Happy hacking! 💻
 
 ---
 
+## 🔥 Setup
+
+```bash
+# 💻 Windows
+python -m ensurepip --upgrade
+pip install -r requirements.txt
+
+# Installing yara for windows
+pip install yara_python-[versi].whl
+# Use AppVeyor
+
+# 💻 Linux
+sudo apt update
+sudo apt install python3 python3-pip
+sudo apt install libyara-dev
+pip3 install yara-python
+pip3 install -r requirements.txt
+
+---
+
 ## 🚀 Usage
 
 ```bash
