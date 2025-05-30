@@ -4,7 +4,7 @@
 > This tool is for **EDUCATIONAL PURPOSES ONLY**  
 > **ILLEGAL USE IS STRICTLY PROHIBITED!**
 
-![Banner](https://media.giphy.com/media/1gLZ32bMP5pY52PBsm/giphy.gif)
+![Banner](https://i.giphy.com/1gLZ32bMP5pY52PBsm.webp)
 
 ---
 
