@@ -1,0 +1,52 @@
+{
+  "Apache": {
+    "2.4.50": [
+      "CVE-2021-42013: Path traversal and remote code execution vulnerability.",
+      "CVE-2021-41773: Path traversal vulnerability."
+    ],
+    "2.4.49": [
+      "CVE-2021-40438: SSRF vulnerability via mod_proxy."
+    ]
+  },
+  "WordPress": {
+    "5.8": [
+      "CVE-2022-21661: SQL injection vulnerability.",
+      "CVE-2022-21662: Cross-site scripting vulnerability."
+    ],
+    "5.7": [
+      "CVE-2021-29447: Object injection vulnerability."
+    ]
+  },
+  "PHP": {
+    "8.0": [
+      "CVE-2021-21703: Remote code execution via PHP-FPM."
+    ],
+    "7.4": [
+      "CVE-2021-21702: Buffer overflow vulnerability in PHP-FPM."
+    ]
+  },
+  "Log4j": {
+    "2.14.1": [
+      "CVE-2021-44228: Remote code execution vulnerability (Log4Shell).",
+      "CVE-2021-45046: Denial of service vulnerability."
+    ]
+  },
+  "Windows": {
+    "10": [
+      "CVE-2021-34527: PrintNightmare vulnerability.",
+      "CVE-2020-1472: Zerologon vulnerability."
+    ],
+    "11": [
+      "CVE-2022-26925: LSA spoofing vulnerability.",
+      "CVE-2022-30190: Follina vulnerability."
+    ]
+  },
+  "Linux": {
+    "kernel 5.8": [
+      "CVE-2020-14386: Privilege escalation in kernel."
+    ],
+    "kernel 5.10": [
+      "CVE-2021-3493: OverlayFS local privilege escalation."
+    ]
+  }
+}
