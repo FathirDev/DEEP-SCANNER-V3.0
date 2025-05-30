@@ -1,3 +1,4 @@
+
 # 🚀 DEEP SCANNER V3.0 - **THE DARK EDITION**
 
 > **⚠️ WARNING:**  
@@ -9,18 +10,16 @@
 ---
 
 ## 🌟 Features
-
-- 🔍 **Subdomain Bruteforcing** (100k+ wordlist)
-- ☁️ **Cloud Leak Detection** (AWS/GCP/Azure)
-- 💣 **Exploit Simulation** (SQLi/XSS/RCE)
-- 🦠 **Malware Detection** (YARA rules)
-- 📚 **Offline CVE Database** (2020-2025)
-- 🛡️ **AI Fuzzing Engine** for advanced payloads
+- 🔍 **Subdomain Bruteforcing** (100k+ wordlist)  
+- ☁️ **Cloud Leak Detection** (AWS/GCP/Azure)  
+- 💣 **Exploit Simulation** (SQLi/XSS/RCE)  
+- 🦠 **Malware Detection** (YARA rules)  
+- 📚 **Offline CVE Database** (2020-2025)  
+- 🛡️ **AI Fuzzing Engine** for advanced payloads  
 
 ---
 
 ## 💡 Disclaimer
-
 This tool is intended **ONLY for authorized penetration testing and educational purposes**.  
 **The developer is NOT responsible for any misuse or damage caused by improper use.**  
 
@@ -28,34 +27,48 @@ Stay ethical, stay safe. Happy hacking! 💻
 
 ---
 
-## 🔥 Setup
+# 🔧 Setup Instructions
 
+### 💻 Windows Setup
 ```bash
-# 💻 Windows
 python -m ensurepip --upgrade
 pip install -r requirements.txt
 
-# Installing yara for windows
+# Install yara-python (manual or AppVeyor)
 pip install yara_python-[versi].whl
-# Use AppVeyor
+# Or use AppVeyor build
+```
 
-# 💻 Linux
+### 🐧 Linux Setup
+```bash
 sudo apt update
-sudo apt install python3 python3-pip
-sudo apt install libyara-dev
-pip3 install yara-python
+sudo apt install python3 python3-pip libyara-dev
 pip3 install -r requirements.txt
+pip3 install yara-python
+```
 
 ---
 
-## 🚀 Usage
+# 🚀 Usage Instructions
 
+### 🔍 Scan Target Domain
 ```bash
-# 🔍 Scan target domain
 python main.py scan example.com
+```
 
-# 💣 Simulate exploits
+### 💣 Simulate Exploits
+```bash
 python main.py exploit example.com
+```
 
-# 🦠 Malware check
+### 🦠 Malware Check
+```bash
 python main.py hunt suspicious.php
+```
+
+---
+
+## 👤 Author & Contact
+- **ZexoGiza**  
+- 📧 [contact@tirzznesia.me](mailto:contact@tirzznesia.me)  
+- 🌐 https://tirzznesia.me
